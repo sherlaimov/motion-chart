@@ -195,7 +195,7 @@ d3.json('nations.json', nations => {
 
 		t
 			.on('start', d => {
-				// Why does running this func result in a synchronized flow of the slider / years?
+				// *** => Why does running this func result in a synchronized flow of the slider / years?
 				tweenYear(d)();
 				console.log('Transition started', d);
 			})
