@@ -16,7 +16,10 @@
     "prettier": "^1.8.2"
   },
   "eslintConfig": {
-    "extends": ["airbnb-base", "prettier"]
+    "extends": [
+      "airbnb-base",
+      "prettier"
+    ]
   },
   "dependencies": {
     "d3": "^4.11.0"
